@@ -1,0 +1,19 @@
+[
+  {
+    "id": "TEST-001",
+    "title": "測試育兒補助",
+    "related_tags": [
+      "family:has_child"
+    ],
+    "summary": "這是一筆用來測試育兒相關推薦的假資料。"
+  },
+  {
+    "id": "TEST-002",
+    "title": "測試農業租屋補助",
+    "related_tags": [
+      "occupation:agriculture",
+      "housing:renter"
+    ],
+    "summary": "這是一筆用來測試多個 Tag 配對的假資料。"
+  }
+]
