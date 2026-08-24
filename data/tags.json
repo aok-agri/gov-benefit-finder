@@ -1,0 +1,32 @@
+[
+  {
+    "id": "gender:female",
+    "label": "女性",
+    "group": "identity"
+  },
+  {
+    "id": "identity:indigenous",
+    "label": "原住民",
+    "group": "identity"
+  },
+  {
+    "id": "occupation:agriculture",
+    "label": "農業",
+    "group": "work"
+  },
+  {
+    "id": "family:has_child",
+    "label": "育有子女",
+    "group": "family"
+  },
+  {
+    "id": "housing:renter",
+    "label": "租屋",
+    "group": "housing"
+  },
+  {
+    "id": "economic:low_income",
+    "label": "低收入戶",
+    "group": "economic"
+  }
+]
