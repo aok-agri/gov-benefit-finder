@@ -2,18 +2,125 @@
   {
     "id": "TEST-001",
     "title": "測試育兒補助",
+    "summary": "這是一筆用來測試育兒相關推薦的假資料。",
+
+    "agency": {
+      "name": "測試政府機關"
+    },
+
     "related_tags": [
       "family:has_child"
     ],
-    "summary": "這是一筆用來測試育兒相關推薦的假資料。"
+
+    "eligibility": {
+      "required_conditions": [
+        "育有未成年子女"
+      ],
+      "exclusion_conditions": []
+    },
+
+    "application_period": {
+      "type": "continuous",
+      "start_date": null,
+      "end_date": null,
+      "note": "全年可申請"
+    },
+
+    "benefit_items": [
+      {
+        "id": "TEST-001-A",
+        "title": "育兒補助金",
+        "type": "cash",
+        "amount": "每月新臺幣5,000元"
+      }
+    ],
+
+    "application_methods": [
+      {
+        "type": "online",
+        "label": "線上申請"
+      }
+    ],
+
+    "required_documents": [
+      "申請書",
+      "身分證明文件"
+    ],
+
+    "source": {
+      "provider": "假資料",
+      "url": null,
+      "last_checked": "2026-08-24"
+    }
   },
+
   {
     "id": "TEST-002",
     "title": "測試農業租屋補助",
+    "summary": "這是一筆用來測試多個 Tag 與固定申請期間的假資料。",
+
+    "agency": {
+      "name": "測試農業機關"
+    },
+
     "related_tags": [
       "occupation:agriculture",
       "housing:renter"
     ],
-    "summary": "這是一筆用來測試多個 Tag 配對的假資料。"
+
+    "eligibility": {
+      "required_conditions": [
+        "從事農業工作",
+        "目前租屋"
+      ],
+      "exclusion_conditions": [
+        "已領取同性質補助者不得重複申請"
+      ]
+    },
+
+    "application_period": {
+      "type": "fixed",
+      "start_date": "2026-09-01",
+      "end_date": "2026-09-30",
+      "note": null
+    },
+
+    "benefit_items": [
+      {
+        "id": "TEST-002-A",
+        "title": "租金補助",
+        "type": "cash",
+        "amount": "最高新臺幣30,000元"
+      },
+      {
+        "id": "TEST-002-B",
+        "title": "搬遷補助",
+        "type": "cash",
+        "amount": "最高新臺幣10,000元"
+      }
+    ],
+
+    "application_methods": [
+      {
+        "type": "online",
+        "label": "線上申請"
+      },
+      {
+        "type": "counter",
+        "label": "臨櫃申請"
+      }
+    ],
+
+    "required_documents": [
+      "申請書",
+      "租賃契約影本",
+      "農業身分相關證明"
+    ],
+
+    "source": {
+      "provider": "假資料",
+      "url": null,
+      "last_checked": "2026-08-24"
+    }
   }
 ]
